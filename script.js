@@ -6,6 +6,8 @@ let multiply = document.getElementById("multiply");
 let divide = document.getElementById("divide");
 let ans = document.getElementById("ans");
 
+
+
 function add_fun() {
   let result = parseInt(num1.value) + parseInt(num2.value);
   ans.innerHTML = result;
@@ -33,3 +35,4 @@ function divi() {
 }
 
 divide.onclick = divi;
+
